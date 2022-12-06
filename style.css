@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ div {
+height: 300px;
+width: 300px;
+
+margin-left: 40%;
+margin-top: 100px;
+padding: 10px 20px ;
+text-align: center;
+border: 2px solid blue;
+color: white;
+background: black;
+transition: 2s ;
+ }   
+ div img {
+    width: 100%;
+ }
+ button{
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+ }
+ div:hover{
+    width: 400px;
+    height: 400px;
+    background: red;
+    color: yellow;
+    border: 2px solid green;
+    margin-left: 35%;
+    transition: 2s ease;
+ }
+ /* div:active{
+    width: 400px;
+    height: 400px;
+    background: red;
+    color: yellow;
+    border: 2px solid green;
+    margin: 20%;
+ } */
